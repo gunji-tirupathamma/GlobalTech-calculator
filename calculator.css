@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #42fce4;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: Algerian;
+}
+
+.calculator {
+    background-color: black;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+
+}
+
+.display-input {
+    text-align: end;
+    font-size: 40px;
+    flex: 1;
+    background-color: transparent;
+    border: 0px;
+    color: #ffffff;
+    width: 200px;
+    flex-wrap: wrap;
+}
+
+.button-size {
+    height: 40px;
+    width: 50px;
+    border-radius: 40px;
+    border: 0px;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.ac-btn {
+    background-color: #bfbfbf;
+}
+
+.operator-btn {
+    background-color: orange;
+    font-size: 25px;
+}
+
+.zero-btn {
+    width: 100px;
+    background-color: #2b2b2b;
+    color: #ffffff;
+    border: 0px;
+    margin-right: 12px;
+}
+
+.number-btn {
+    background-color: #2b2b2b;
+    color: #ffffff;
+}
